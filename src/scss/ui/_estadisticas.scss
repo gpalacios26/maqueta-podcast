@@ -1,0 +1,13 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.estadisticas {
+  .contenido-estadisticas {
+    width: 98%;
+    margin: 0 auto;
+
+    h2 {
+      @include m.headingBorder(v.$secundario, v.$primario);
+    }
+  }
+}
